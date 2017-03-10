@@ -1,3 +1,6 @@
+drop table servestats
+drop table top100
+
 alter table top100 alter column Ranking int;
 
 select * from top100 t inner join servestats s
